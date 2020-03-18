@@ -1,0 +1,23 @@
+import numpy as np(數值計算)
+	np.sin(1) 語法
+import matplotib.pyplot as plt
+%matplotlib inline
+% 是魔術指令的起手式，老師示範的指令，其用途是讓畫的圖出現在畫面上
+
+<HW>
+x = np.linspace(-10,20,200)    
+#-10到20平均取200個點
+
+y = np.sinc(x)
+#劃出x的200個點
+
+plt.plot(x,y)
+#畫xy的200個連起來ㄉ點
+
+plt.scatter(x,y)
+#畫xy的間隔點
+
+plt.xkcd()
+#可愛漫畫圖指令 後再加上欲畫的指令 
+
+GIT HUB：bit.ly/yenlung
